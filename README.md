@@ -1,2 +1,5 @@
-# intro-web-html-css
-Un curso intro de HTML y CSS 
+# Curso básico de HTML y CSS
+
+![Mucha suerte a todos ](/memes/goodluck.jpg)
+
+
