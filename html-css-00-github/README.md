@@ -35,5 +35,5 @@ git push origin main/master
 ```
 
 ## resolver conflictos git pull origin main/master 
-**Bueno acá les dejo solos con el amigo google**
+**Bueno acá les dejo solos con el amigo google**\
 ![Suerte con eso](../memes/leomonster.jpg)
