@@ -34,6 +34,13 @@ Con este comando podemos subir el commit al repositorio de github.\
 git push origin main/master
 ```
 
+## git pull origin main/master
+Con este comando podemos descargar el commit del repositorio de github.
+    
+```
+git pull origin main/master
+```
+
 ## resolver conflictos git pull origin main/master 
 **Bueno acá los dejo solos con el amigo google**\
 ![Suerte con eso](../memes/leomonster.jpg)
