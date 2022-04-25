@@ -10,5 +10,5 @@
 
 # Intro HTML & CSS
 **nota:** pueden empezar a mirar los videos de HTML a partir del tercer video
-[**Videos de html**](https://youtu.be/2TcuFA1e7EI)
+[**Videos de html**](https://www.youtube.com/watch?v=eyZ5OJTDoVQ&list=PLRBma32phT7hmt81fcyc_sACvO7Pd49Gw&ab_channel=GroverV%C3%A1squez)
 
