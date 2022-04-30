@@ -1,0 +1,20 @@
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   }
+
+   img{
+    max-width: 100%;
+}
+body {
+    background: #ebebeb;
+}
+
+header{
+    display: flex;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
