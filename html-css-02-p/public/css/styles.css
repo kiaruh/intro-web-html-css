@@ -91,3 +91,7 @@ body {
     bottom: 4%;
 }
 
+.articulos :hover{
+    color: whitesmoke;
+    transition: ease-in .1s ;
+}
