@@ -4,9 +4,14 @@
     font-family: 'Roboto', sans-serif;
    }
 
-   img{
-    max-width: 200px;
-}
+ .logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    }
+ 
 body {
     background: #ebebeb;
 }
@@ -18,3 +23,71 @@ ul{
     display: flex;
     list-style: none;
 }
+
+img{
+    max-width: 100%;
+}
+body {
+    background: #ebebeb;
+}
+
+/* MAIN */
+.main{
+    margin-top: -2vh;
+}
+.main-titulos{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 0.7%;
+    padding-left: 1%;
+    text-align: left;
+}
+.shipping-icon , .description-product, .descuento, .precio {
+    font-size: 16px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 11vh;
+    padding: auto;
+    margin-bottom: 20px;
+    background-color: #ebebeb;
+}
+
+.section-articulos {
+    max-width: 1300px;
+}
+
+.articulos {
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-width: 24vw;
+
+}
+
+.shipping-icon , .description-product, .descuento, .precio {
+    font-size: 0.85em;
+}
+
+.articulos img {
+    margin-bottom: 11%;
+}
+.description-product {
+    top: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    opacity: 0;
+}
+.description-product:hover {
+    opacity: 1;
+    transition: 0.3s;
+    
+}
+.texto {
+    position: absolute;
+    bottom: 4%;
+}
+
