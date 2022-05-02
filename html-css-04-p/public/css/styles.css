@@ -50,7 +50,6 @@ header{
 /* MAIN */
 main{
     background: var(--second-bg-color);
-    padding: 50px 0px;
 }
 article{
     padding: 2%;
