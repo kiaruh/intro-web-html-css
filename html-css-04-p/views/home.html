@@ -16,12 +16,24 @@
 </head>
 <body>
     <header>
+
+        <div class="top-nav-bar">
+            <ul class="top-nav-bar-list">
+                <li><a href="../views/home.html"><img src="../public/img/logo.png" alt=""></a></li>
+                <li><input type="search" placeholder="Busca aquí"><button><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                <li><i class="fa-solid fa-truck-fast"></i>Envíos en 24 Horas</li>
+            </ul>
+        </div>
        <div class="nav-bar">
-          <ul>
-            <li><img src="../public/img/logo.png" alt=""></li>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Ingresar</a></li>
-            <li><a href="#">Favoritos</a></li>
+          <ul class="right-nav-bar">
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Tiendas oficiales</a></li>
+            <li><a href="#">Vender</a></li>
+          </ul>
+          <ul class="left-nav-bar">
+            <li><a href="#">Crear Cuenta</a></li>
+            <li><a href="#">Ingreso</a></li>
+            <li><a href="#">Mis compras<i class="fa-solid fa-basket-shopping-simple"></i></a></li>
           </ul>
        </div>
     </header>
@@ -29,7 +41,8 @@
         <div class="banner">
             <img class="home-banner" src="../public/img/banner2.png" alt="">
         </div>
-        <section class="articles">
+        <h1 class="main-title">Basada en tu última visita</h1>
+        <section class="articles-top">
             <article>
                 <img class="img-articulo" src="../public/img/img-cafetera-moulinex.jpg" alt="">
                 <h2 class="info-producto" >cafetera molinex <i class="fa-solid fa-truck-fast"></i></h2>
@@ -51,6 +64,30 @@
                 <h2 class="info-producto" >$200</h2>
             </article>
         </section>
+        <h1 class="main-title">Ofertas</h1>
+        <section class="articles-bottom">
+            <article>
+                <img class="img-articulo" src="../public/img/img-cafetera-moulinex.jpg" alt="">
+                <h2 class="info-producto" >cafetera molinex <i class="fa-solid fa-truck-fast"></i></h2>
+                <h2 class="info-producto" >$100</h2>
+            </article>
+            <article>
+                <img class="img-articulo" src="../public/img/img-macbook-pro-2019.jpg" alt="">
+                <h2 class="info-producto" >Macbook 2019 <i class="fa-solid fa-truck-fast"></i></h2>
+                <h2 class="info-producto" >$200</h2>
+            </article>
+            <article>
+                <img class="img-articulo" src="../public/img/img-samsung-galaxy-s10.jpg" alt="">
+                <h2 class="info-producto" >Samsung s10 <i class="fa-solid fa-truck-fast"></i></h2>
+                <h2 class="info-producto" >$150</h2>
+            </article>
+            <article>
+                <img class="img-articulo" src="../public/img/img-tv-samsung-smart.jpg" alt="">
+                <h2 class="info-producto" >Smart Tv <i class="fa-solid fa-truck-fast"></i></h2>
+                <h2 class="info-producto" >$200</h2>
+            </article>
+        </section>
+
     </main>
 </body>
 </html>

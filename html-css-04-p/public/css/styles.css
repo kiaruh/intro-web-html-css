@@ -1,16 +1,43 @@
 body {
-    background: rgba(12, 5, 4, 0.032);
     font-family: 'Roboto', sans-serif;
 }
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+:root {
+    --main-bg-color: rgba(255,241,89,255);
+    --main-text-color: rgb(0, 42, 113);
+    --second-text-color: rgb(117, 117, 117);
+  }
 
 /* Header */
 header{
-    background: rgba(255,241,89,255)
+    background: var(--main-bg-color)
+}
+
+.top-nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    color: var(--main-text-color);
+    padding: 25px 10px 0px 10px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
 }
 .nav-bar ul{
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-bar ul li{
+    padding: 0px 20px 10px 20px; 
+    font-size: 20px;
+    color: var(--main-text-color);
 }
 
 /* MAIN */
@@ -18,12 +45,20 @@ header{
 .home-banner{
     max-width: 100vw;
 }
+.main-title{
+    color:var(--second-text-color)
+}
 
-.articles{
+.articles-top{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
+}
+.articles-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .info-producto{
     font-size: 0.7rem;
