@@ -70,9 +70,25 @@ article{
     border-radius: 20px;
 }
 .main-banner{
-    display: inline;
-    
+    position: relative;
+    margin: auto;
+    padding: auto;
 }
+.right-banner-button {
+    position:absolute; 
+    color:gray;
+    right: 0;
+    bottom: 50%;
+    cursor: pointer;
+ }
+ 
+ .left-banner-button {
+     position: absolute; 
+     color:gray;
+     left: 0;
+     bottom: 50%;
+     cursor: pointer;
+  }
 
 .main-banner img{ 
     max-width: 100vw;
